@@ -1,2 +1,2 @@
 # javaProjects
-Projetos desenvolvidos na linguagem Java
+Projetos de estudo na linguagem Java, desenvolvidos para Recode Pro
