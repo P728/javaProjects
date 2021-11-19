@@ -5,6 +5,31 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "args": [
+                "--extensionDevelopmentPath=${workspaceFolder}"
+            ],
+            "name": "Launch Extension",
+            "outFiles": [
+                "${workspaceFolder}/out/**/*.js"
+            ],
+            "preLaunchTask": "npm",
+            "request": "launch",
+            "type": "pwa-extensionHost"
+        },
+        {
+            "command": "npm start",
+            "name": "Run npm start",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
+            "type": "java",
+            "name": "Launch cadastro",
+            "request": "launch",
+            "mainClass": "agenciaViagem.cadastro",
+            "projectName": "javaProjects_967a6ee5"
+        },
+        {
             "name": "PowerShell Launch Script",
             "type": "PowerShell",
             "request": "launch",

@@ -2,7 +2,15 @@ package agenciaViagem;
 
 public class cliente {
 
-    private String sobrenome, cpf, tel;
+    private String nome, sobrenome, cpf, tel;
+
+    protected void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    protected String getNome() {
+        return nome;
+    }
 
     protected void setSobrenome(String sobrenome) {
         this.sobrenome = sobrenome;
