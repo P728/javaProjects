@@ -42,7 +42,7 @@ class cadastro {
             }
             }
         }
-        output.println("\nCadastro Realizado!");
+        output.println("Cadastro Realizado!");
         output.println("\n" + dadosCliente[0] + " " + dadosCliente[1] + ", faça o cadastro da sua viagem.");
         output.println("Informe os dados abaixo: \n");
 
